@@ -1,0 +1,22 @@
+{
+  "name": "firma-test",
+  "version": "1.0.0",
+  "description": "firma xades-bes",
+  "main": "app.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "nodemon app.js",
+    "live": "nodemon app.js"
+  },
+  "author": "Clemens Hemmerling",
+  "license": "MIT",
+  "dependencies": {
+    "@peculiar/webcrypto": "^1.0.8",
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "socket.io": "^2.2.0",
+    "xadesjs": "^2.0.14",
+    "xml-js": "^1.6.11"
+  }
+}
